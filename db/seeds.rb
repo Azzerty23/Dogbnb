@@ -32,8 +32,3 @@ stroll_array = []
   stroll_array << s
 end
 puts "14 Strolls random ont été créés"
-
-14.times do
-  StrollDog.create(dog: dog_array.sample, stroll: stroll_array.sample)
-end
-puts "14 StrollDogs random ont été créés"
