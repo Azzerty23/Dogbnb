@@ -26,7 +26,14 @@ dog_array = []
   dog_array << d
 end
 puts "12 Dogs random ont été créés"
+stroll_array = []
 14.times do
-  Stroll.create(dogsitter: ds_array.sample, dog: dog_array.sample, city: city_array.sample)
+  s = Stroll.create(dogsitter: ds_array.sample, dog: dog_array.sample, city: city_array.sample)
+  stroll_array << s
 end
-puts "14 Scrolls random ont été créés"
+puts "14 Strolls random ont été créés"
+
+14.times do
+  StrollDog.create(dog: dog_array.sample, stroll: stroll_array.sample)
+end
+puts "14 Strolls random ont été créés"
