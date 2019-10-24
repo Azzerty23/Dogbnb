@@ -4,7 +4,7 @@
 * Ruby version '2.5.1'
 * Rails version '5.2.3'
 
-Random BDD:
-<p>$ rails db:seed</p>
+Random BDD:<br/>
+'$ rails db:seed'
 
 <h4>Made in Montpellier</h4>
