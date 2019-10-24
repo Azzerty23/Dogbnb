@@ -5,7 +5,7 @@
 * Rails version '5.2.3'
 
 Random BDD:<br/>
-`$ rails db :migrate`
+`$ rails db :migrate`<br/>
 `$ rails db:seed`
 
 <h4>Made in Montpellier</h4>
